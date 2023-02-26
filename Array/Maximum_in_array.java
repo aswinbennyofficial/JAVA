@@ -8,12 +8,14 @@ class Main{
         for(i=0;i<10;i++){
             arr[i]=sc.nextInt();
         }
-        int max=arr[0];
+        int max=arr[0],index=0;
         for(i=0;i<arr.length;i++){
             if (max<arr[i]){
                 max=arr[i];
+                index=i;
             }
         }
         System.out.println(max);
+        System.out.println(index);
     }
 }
