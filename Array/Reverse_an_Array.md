@@ -19,3 +19,34 @@ class Main{
     }
 }
 ```
+
+
+### Using swapping
+
+#### 1. Swapping using binaries
+
+```java
+import java.util.*;
+class Main{
+    public static void main(String args[]){
+        int arr[]={1,2,-4,-4,-4,-4,-7};
+        //int rev_arr[]=new int[arr.length];
+        int i;
+        int l= arr.length;
+        for(i=0;i<=l/2;i++){ //make it up to half else causes again reverse
+            if(arr[i]!= arr[l-1-i]) {
+//                System.out.println(arr[i]);
+//                System.out.println(arr[l-i-1]);
+                arr[i] = arr[i] ^ arr[l - 1 - i];
+                arr[l - 1 - i] = arr[i] ^ arr[l - 1 - i];
+                arr[i] = arr[i] ^ arr[l - 1 - i];
+            }
+        }
+
+        for(i=0;i<l;i++){
+            System.out.print(" "+arr[i]);
+        }
+    }
+}
+
+```
