@@ -65,3 +65,6 @@ class Main{
 }
 
 ```
+or
+![image](https://user-images.githubusercontent.com/110408942/221471294-a3d61f2b-1602-4d13-b9bd-c8506c7f2ec1.png)
+
