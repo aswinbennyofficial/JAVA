@@ -5,6 +5,36 @@ palindrome
 
 */
 
+
+```java
+
+class Solution {
+    public boolean isPalindrome(int x) {
+        
+        int y=x,rev=0;
+
+        while(y>0){
+            rev=rev*10+y%10;
+            y/=10;
+        }
+
+        if(rev==x || x==0){
+            return true;
+        }
+        else{
+            return false;
+        }
+        
+    }
+}
+
+```
+
+
+
+
+
+```java
 class Solution {
     public boolean isPalindrome(int x) {
         boolean flag=true;
@@ -25,3 +55,6 @@ class Solution {
         return flag;
     }
 }
+
+```
+
