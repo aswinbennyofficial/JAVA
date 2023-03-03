@@ -11,7 +11,7 @@ public class Prog {
             }
             str+=arr[i];
         }
-        System.out.println(str);
+        System.out.println(str); // abbcccd ->abcd
     }
 
 }
