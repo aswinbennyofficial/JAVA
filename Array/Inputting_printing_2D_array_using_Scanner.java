@@ -5,7 +5,7 @@ class Main{
         int rl=sc.nextInt();
         int cl= sc.nextInt();
         int i,j;
-        int arr[][]=new int[rl][cl];
+        int arr[][]=new int[rl][cl] ;
 
         for (i=0;i<rl;i++){
             for (j=0;j<cl;j++){
