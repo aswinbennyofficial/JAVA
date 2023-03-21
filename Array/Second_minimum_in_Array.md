@@ -16,7 +16,7 @@ class Prog{
             }
         }
 
-        for(i=1;i<arr.length;i++){
+        for(i=0;i<arr.length;i++){
             if(arr[i]!=min && arr[i]<minx){
                 minx=arr[i];
             }
