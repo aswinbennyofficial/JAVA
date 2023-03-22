@@ -1,6 +1,7 @@
 
 ### V1
 ```java
+// finds only one missing number per gap between 1 to n
 class Prog{
     public static void main(String[] args) {
        int[] arr={1,4,3,2,8,6,5,9};
@@ -25,11 +26,12 @@ class Prog{
 ### V2
 
 ```java
-import java.util.Arrays;
 
 import java.util.Arrays;
 
 class Prog{
+
+// finds all missing numbers between minimum and maximum in array
     public static void main(String[] args) {
         int i,count;
        int[] arr={11,3,2,8,6,5};
