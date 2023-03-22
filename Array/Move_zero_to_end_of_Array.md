@@ -3,8 +3,6 @@
 
 ```java
 
-import java.lang.reflect.Array;
-
 class Prog{
 
     static void operation(int arr[]){
@@ -37,11 +35,11 @@ class Prog{
 
 
 ```
+---
 
 ### V2
 
 ```java
-import java.lang.reflect.Array;
 
 class Prog{
 
