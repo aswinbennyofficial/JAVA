@@ -27,15 +27,20 @@ class Prog{
 ```java
 import java.util.Arrays;
 
+import java.util.Arrays;
+
 class Prog{
     public static void main(String[] args) {
         int i,count;
-       int[] arr={1,3,2,8,6,5,11};
+       int[] arr={11,3,2,8,6,5};
         Arrays.sort(arr);
 
         for(i=0;i<arr.length-1;i++){
             count=arr[i]+1;
             while(count!=arr[i+1]){
+                if(count>arr[arr.length-1]){
+                    break;
+                }
                 System.out.println(count);
                 count++;
             }
