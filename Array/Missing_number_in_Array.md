@@ -53,3 +53,30 @@ class Prog{
 }
 
 ```
+---
+
+### v3
+```java
+// finds all missing elements from 1 to n
+import java.util.Arrays;
+
+class Prog{
+    public static void main(String[] args) {
+        int i;
+       int[] arr={11,3,2,8,6,5,20};
+        Arrays.sort(arr);
+        int[] chk=new int[arr[arr.length-1]+1];
+
+        for (i=0;i<arr.length;i++){
+            chk[arr[i]]=1;
+        }
+
+        for (i=1;i<chk.length;i++){
+            if(chk[i]==0){
+                System.out.print(i+" ");
+            }
+        }
+
+    }
+}
+```
