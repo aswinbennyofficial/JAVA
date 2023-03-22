@@ -11,6 +11,7 @@ class Prog{
         while(chk==1 && i<str.length()/2){
             if(str.charAt(i)!=str.charAt(str.length()-1-i)){
                 chk=0;
+                break;
             }
             i++;
         }
