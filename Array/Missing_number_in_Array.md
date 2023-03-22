@@ -26,12 +26,12 @@ class Prog{
 ### V2
 
 ```java
-
+// finds all missing numbers between minimum and maximum in array
 import java.util.Arrays;
 
 class Prog{
 
-// finds all missing numbers between minimum and maximum in array
+
     public static void main(String[] args) {
         int i,count;
        int[] arr={11,3,2,8,6,5};
