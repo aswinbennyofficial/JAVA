@@ -1,4 +1,3 @@
-import java.security.PublicKey;
 
 class Main{
 
@@ -14,16 +13,13 @@ class Main{
         }
 
     }
-  
-    // addfirst
+
     public void addFirst(int data){
 
         ListNode newNode=new ListNode(data);
         newNode.next=head;
         head=newNode;
     }
-  
-  
 
     public void display(){
         ListNode current=head;
@@ -49,6 +45,8 @@ class Main{
         n3.next=n4;
 
        sll.addFirst(9);
+       sll.addFirst(8);
+       sll.addFirst(7);
        sll.display();
 
     }
