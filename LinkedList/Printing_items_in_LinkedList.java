@@ -13,6 +13,16 @@ class Main{
 
     }
 
+    public void display(){
+        ListNode current=head;
+        while (current!=null){
+            System.out.print(current.data+" -> ");
+            current=current.next;
+        }
+        System.out.println(" Null");
+    }
+
+
     public static void main(String[] args) {
         Main sll=new Main(); // to have head inside main
         sll.head=new ListNode(10);
@@ -25,16 +35,8 @@ class Main{
         sll.head.next=n2;
         n2.next=n3;
         n3.next=n4;
-        
-        
-        
-        // printing items inside linkedlist
-        ListNode current=sll.head;
-        while (current!=null){
-            System.out.print(current.data+"->");
-            current=current.next;
-        }
-        System.out.println(" Null");
+
+       sll.display();
 
     }
 
