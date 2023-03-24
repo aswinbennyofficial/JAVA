@@ -14,19 +14,22 @@ class Main{
 
     }
 
-    public void delLast(){
-        int size=0,i;
-        ListNode current=head;
-        while(current.next!=null){
-            current=current.next;
-            size++;
-        }
-        current=head;
-        for(i=1;i<size;i++){
-            current=current.next;
-        }
-        current.next=null;
-        //return current;
+    public ListNode delLast(){
+       if(head==null || head.next==null){
+           return head;
+       }
+
+       ListNode previous=null;
+       ListNode current=head;
+
+       while (current.next!=null){
+           previous=current;
+           current=current.next;
+       }
+
+       previous.next=null;
+       return current;
+
     }
 
 
@@ -53,8 +56,8 @@ class Main{
         n2.next=n3;
         n3.next=n4;
 
-        //System.out.println(sll.delLast().data);
-       sll.delLast();
+        System.out.println(sll.delLast().data);
+       //sll.delLast();
        sll.display();
 
     }
