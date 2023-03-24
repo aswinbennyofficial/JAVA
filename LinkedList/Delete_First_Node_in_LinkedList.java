@@ -50,7 +50,8 @@ class Main{
         n2.next=n3;
         n3.next=n4;
 
-       sll.delFirst();
+        System.out.println(sll.delFirst().data);
+       //sll.delFirst();
        sll.display();
 
     }
