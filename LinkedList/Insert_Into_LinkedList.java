@@ -16,19 +16,19 @@ class Main{
 
     public void insertInto(int data, int k){
         ListNode newNode=new ListNode(data);
-        int i;
         if(k==1){
         newNode.next=head;
         head=newNode;
         return;
         }
         ListNode current=head;
-        while(k>2){
+        int i=1;
+        while(i<k-1){
             if(current.next==null){
                 break;
             }
             current=current.next;
-            k--;
+            i++;
         }
 
         newNode.next=current.next;
@@ -58,7 +58,7 @@ class Main{
         n2.next=n3;
         n3.next=n4;
 
-       sll.insertInto(99,3);
+       sll.insertInto(99,2);
        sll.display();
 
     }
