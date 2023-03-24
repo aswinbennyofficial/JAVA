@@ -17,7 +17,7 @@ class Main{
 
     public void addLast(int data){
         ListNode newNode=new ListNode(data);
-        if(head.next==null){
+        if(head==null){
             head=newNode;
             return;
         }
