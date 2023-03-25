@@ -19,14 +19,13 @@ class Main{
         ListNode current=head;
         ListNode next=null;
 
-        while(current.next!=null){
+        while(current!=null){
             next=current.next;
             current.next=previous;
             previous=current;
             current=next;
         }
-        current.next=previous;
-        head= current;
+        head=previous;
 
     }
 
