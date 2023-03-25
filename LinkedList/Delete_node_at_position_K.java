@@ -22,6 +22,7 @@ class Main{
             head=head.next;
             return;
         }
+        
         for (i = 1; i < k; i++) {
             previous = current;
             current = current.next;
