@@ -50,14 +50,17 @@ class Main{
         ListNode n3=new ListNode(12);
         ListNode n4=new ListNode(13);
         ListNode n5=new ListNode(14);
+        ListNode n6=new ListNode(15);
 
         //connect nodes together
         sll.head.next=n2;
         n2.next=n3;
         n3.next=n4;
+        n4.next=n5;
+        n5.next=n6;
 
 
-        sll.lastNthNode(1);
+        sll.lastNthNode(3);
        //sll.display();
 
     }
