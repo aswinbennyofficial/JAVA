@@ -18,15 +18,13 @@ class Main{
     public void insertInSorted(int k){
         ListNode newNode=new ListNode(k);
         ListNode current=head;
-
-        while (current!=null && current.next!=null){
-            if(newNode.data > current.data && newNode.data<=current.next.data){
-                newNode.next=current.next;
-                current.next=newNode;
-            }
-
+        while(current.next!=null && current.next.data<newNode.data){
             current=current.next;
         }
+        newNode.next=current.next;
+        current.next=newNode;
+
+
     }
 
 
@@ -56,7 +54,7 @@ class Main{
         n4.next=n5;
 
 
-        sll.insertInSorted(14);
+        sll.insertInSorted(1);
         sll.display();
 
     }
