@@ -1,4 +1,3 @@
-
 class Main{
 
     private ListNode head;
@@ -21,14 +20,14 @@ class Main{
         if(current.data> newNode.data){
             newNode.next=current;
             head=newNode;
+            return;
         }
-        else {
-            while (current.next != null && current.next.data < newNode.data) {
-                current = current.next;
-            }
-            newNode.next = current.next;
-            current.next = newNode;
+
+        while (current.next != null && current.next.data < newNode.data) {
+            current = current.next;
         }
+        newNode.next = current.next;
+        current.next = newNode;
 
     }
 
@@ -59,7 +58,7 @@ class Main{
         n4.next=n5;
 
 
-        sll.insertInSorted(13);
+        sll.insertInSorted(1);
         sll.display();
 
     }
