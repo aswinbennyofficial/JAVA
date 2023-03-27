@@ -17,7 +17,7 @@ class Main{
         ListNode slowpointer=head;
         ListNode fastpointer=head;
 
-        while(fastpointer!=null && fastpointer.next.next!=null){
+        while(fastpointer.next!=null && fastpointer.next.next!=null){
 
             slowpointer=slowpointer.next;
             fastpointer=fastpointer.next.next;
@@ -27,10 +27,12 @@ class Main{
                 return;
             }
         }
+        System.out.println("No loop");
     }
 
 
 
+  
 
     public static void main(String[] args) {
         Main sll=new Main(); // to have head inside main
@@ -57,7 +59,7 @@ class Main{
 
 
         sll.detectLoop();
-      
+    
 
     }
 
