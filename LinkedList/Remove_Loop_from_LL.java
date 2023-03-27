@@ -27,14 +27,12 @@ class Main{
             }
         }
         slowpointer=head;
-        ListNode prev=null;
-        while(slowpointer!=fastpointer){
+        while(slowpointer.next!=fastpointer.next){
             slowpointer=slowpointer.next;
-            prev=fastpointer;
             fastpointer=fastpointer.next;
         }
 
-        prev.next=null;
+       fastpointer.next=null;
     }
 
 
@@ -61,7 +59,11 @@ class Main{
         ListNode n7=new ListNode(17);
         ListNode n8=new ListNode(18);
 
-
+        //connect nodes together
+//        sll.head.next=n2;
+//        n2.next=n3;
+//        n3.next=n4;
+//        n4.next=n5;
 
         sll.head.next=n2;
         n2.next=n3;
