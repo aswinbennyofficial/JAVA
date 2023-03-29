@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Main{
+class Inputting_printing_2D_array_using_Scanner{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int rl=sc.nextInt();
