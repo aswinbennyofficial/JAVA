@@ -1,6 +1,6 @@
 
 ```java
-class Main{
+class Subarrays{
     public static void main(String[] args) {
         int arr[]={1,2,3,4,5,9};
         int si,ei,i;

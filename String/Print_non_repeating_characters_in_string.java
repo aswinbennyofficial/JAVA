@@ -1,4 +1,4 @@
-public class Prog {
+public class Print_non_repeating_characters_in_string {
     public static void main(String[] args) {
         String str="aabbbcddfeeeg";
         char[] arr=str.toCharArray();

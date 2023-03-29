@@ -1,5 +1,5 @@
 
-class Main{
+class Is_Element_Present_in_LinkedList{
 
     private ListNode head;
 
@@ -37,7 +37,7 @@ class Main{
 
 
     public static void main(String[] args) {
-        Main sll=new Main(); // to have head inside main
+        Is_Element_Present_in_LinkedList sll=new Is_Element_Present_in_LinkedList(); // to have head inside main
         sll.head=new ListNode(10);
 
         ListNode n2=new ListNode(11);

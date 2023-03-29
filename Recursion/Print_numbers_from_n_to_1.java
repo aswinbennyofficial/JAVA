@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class Print_numbers_from_n_to_1{
 
     public static int recursiveFxn(int n){
         if (n==0){

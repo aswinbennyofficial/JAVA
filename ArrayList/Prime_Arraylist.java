@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class Prime_Arraylist{
     public static void main(String[] args) {
     ArrayList<Integer> A=new ArrayList<>();
        Scanner sc=new Scanner(System.in);

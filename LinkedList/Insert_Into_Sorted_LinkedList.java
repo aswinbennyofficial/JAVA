@@ -1,4 +1,4 @@
-class Main{
+class Insert_Into_Sorted_LinkedList{
 
     private ListNode head;
 
@@ -43,7 +43,7 @@ class Main{
 
 
     public static void main(String[] args) {
-        Main sll=new Main(); // to have head inside main
+        Insert_Into_Sorted_LinkedList sll=new Insert_Into_Sorted_LinkedList(); // to have head inside main
         sll.head=new ListNode(10);
 
         ListNode n2=new ListNode(11);

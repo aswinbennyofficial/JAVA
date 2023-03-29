@@ -1,5 +1,5 @@
 
-class Main{
+class Delete_Key_From_LinkedList{
 
     private ListNode head;
 
@@ -45,7 +45,7 @@ class Main{
 
 
     public static void main(String[] args) {
-        Main sll=new Main(); // to have head inside main
+        Delete_Key_From_LinkedList sll=new Delete_Key_From_LinkedList(); // to have head inside main
         sll.head=new ListNode(10);
 
         ListNode n2=new ListNode(11);

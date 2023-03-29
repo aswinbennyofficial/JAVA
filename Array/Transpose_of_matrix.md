@@ -2,7 +2,7 @@
 
 ```java 
 import java.util.Scanner;
-class Main{
+class Transpose_of_matrix{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
@@ -34,7 +34,7 @@ class Main{
 
 ```java
 import java.util.Scanner;
-class Main{
+class Transpose_of_matrix{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
@@ -68,7 +68,7 @@ or
 ```java
 
 import java.util.Scanner;
-class Main{
+class Transpose_of_matrix{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 

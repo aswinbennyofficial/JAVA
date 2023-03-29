@@ -32,7 +32,7 @@ class smartphone extends mobile implements GPS,ipod{
     }
 }
 
-class Main{
+class smartphone_example{
     public static void main(String[] args) {
         ipod obj=new smartphone();
         obj.play();

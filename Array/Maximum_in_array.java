@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class Maximum_in_array{
     public static void main(String args[]){
         int i;
         Scanner sc=new Scanner(System.in);

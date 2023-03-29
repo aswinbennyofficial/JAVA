@@ -1,4 +1,4 @@
-class Main{
+class Print_elements_in_array{
     public static void num(int arr[],int n){
 
         if (n==-1){

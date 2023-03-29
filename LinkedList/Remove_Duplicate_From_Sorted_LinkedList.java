@@ -1,5 +1,5 @@
 
-class Main{
+class Remove_Duplicate_From_Sorted_LinkedList{
 
     private ListNode head;
 
@@ -41,7 +41,7 @@ class Main{
 
 
     public static void main(String[] args) {
-        Main sll=new Main(); // to have head inside main
+        Remove_Duplicate_From_Sorted_LinkedList sll=new Remove_Duplicate_From_Sorted_LinkedList(); // to have head inside main
         sll.head=new ListNode(10);
 
         ListNode n2=new ListNode(12);

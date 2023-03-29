@@ -2,7 +2,7 @@
 ### V1
 ```java
 // finds only one missing number per gap between 1 to n
-class Prog{
+class Missing_number_in_Array{
     public static void main(String[] args) {
        int[] arr={1,4,3,2,8,6,5,9};
        int[] chk=new int[arr.length];
@@ -29,7 +29,7 @@ class Prog{
 // finds all missing numbers between minimum and maximum in array
 import java.util.Arrays;
 
-class Prog{
+class Missing_number_in_Array{
 
 
     public static void main(String[] args) {
@@ -60,7 +60,7 @@ class Prog{
 // finds all missing elements from 1 to n
 import java.util.Arrays;
 
-class Prog{
+class Missing_number_in_Array{
     public static void main(String[] args) {
         int i;
        int[] arr={11,3,2,8,6,5,20};

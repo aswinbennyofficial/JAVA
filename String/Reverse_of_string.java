@@ -1,4 +1,4 @@
-class Main{
+class Reverse_of_string{
     public static void main(String[] args) {
         String str="Welcome to Java";
         char arr[]=str.toCharArray();

@@ -3,7 +3,7 @@
 ```java
 
 import java.util.*;
-class Main{
+class Steps_permutation_using_recursion{
 
     public static int recursiveFxn(int n){
        if (n==0){

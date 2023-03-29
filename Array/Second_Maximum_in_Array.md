@@ -2,7 +2,7 @@
 ###V1
 ```java
 
-class Prog{
+class Second_Maximum_in_Array{
 
     static int operation(int arr[]){
         int max=Integer.MIN_VALUE,maxx=Integer.MIN_VALUE,i;

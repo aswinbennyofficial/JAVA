@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class product_table_of_prime_number{
     public static void main(String args[]){
         int s,e,i,j,isPrime=1;
         Scanner sc=new Scanner(System.in);

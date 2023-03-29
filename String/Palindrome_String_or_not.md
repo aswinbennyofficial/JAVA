@@ -1,7 +1,7 @@
 ### V1
 
 ```java
-class Prog{
+class Palindrome_String_or_not{
     public static void main(String[] args) {
         String str="MADAM";
         str=str.toLowerCase();

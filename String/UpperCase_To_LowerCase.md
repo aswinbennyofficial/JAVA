@@ -1,7 +1,7 @@
 ### V1
 
 ```java
-class Main{
+class UpperCase_To_LowerCase{
     public static void main(String[] args) {
         String str="WeLCome To JAVA",newstr="";
         int i;
@@ -22,7 +22,7 @@ class Main{
 
 ###V2
 ```java
-class Main{
+class UpperCase_To_LowerCase{
     public static void main(String[] args) {
         String str="WeLCome To JAVA",newstr="";
         int i;

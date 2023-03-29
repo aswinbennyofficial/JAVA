@@ -1,4 +1,4 @@
-class Main{
+class Searching_in_array{
     public static void num(int arr[],int n,int i){
         if (i==arr.length){
             System.out.println("Not found");
@@ -20,7 +20,7 @@ class Main{
 /*
 or
 
-class Main{
+class Searching_in_array{
     public static int num(int arr[],int n,int i){
         if (i==arr.length){
             //System.out.println("Not found");

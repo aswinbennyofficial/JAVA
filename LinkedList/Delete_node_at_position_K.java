@@ -1,5 +1,5 @@
 
-class Main{
+class Delete_node_at_position_K{
 
     private ListNode head;
 
@@ -44,7 +44,7 @@ class Main{
 
 
     public static void main(String[] args) {
-        Main sll=new Main(); // to have head inside main
+        Delete_node_at_position_K sll=new Delete_node_at_position_K(); // to have head inside main
         sll.head=new ListNode(10);
 
         ListNode n2=new ListNode(11);

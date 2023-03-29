@@ -6,7 +6,7 @@ palindrome, and false otherwise.
 
 ```java
 
-class Solution {
+class Palindrome_numbers {
     public boolean isPalindrome(int x) {
         
         int y=x,rev=0;
@@ -33,7 +33,7 @@ class Solution {
 
 
 ```java
-class Solution {
+class Palindrome_numbers {
     public boolean isPalindrome(int x) {
         boolean flag=true;
         int i;

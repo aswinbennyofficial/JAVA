@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class Remove_even_in_arraylist{
     public static void main(String[] args) {
     ArrayList<Integer> t1=new ArrayList<>();
        Scanner sc=new Scanner(System.in);

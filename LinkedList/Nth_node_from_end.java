@@ -1,5 +1,5 @@
 
-class Main{
+class Nth_node_from_end{
 
     private ListNode head;
 
@@ -43,7 +43,7 @@ class Main{
 
 
     public static void main(String[] args) {
-        Main sll=new Main(); // to have head inside main
+        Nth_node_from_end sll=new Nth_node_from_end(); // to have head inside main
         sll.head=new ListNode(10);
 
         ListNode n2=new ListNode(11);

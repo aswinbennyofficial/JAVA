@@ -1,4 +1,4 @@
-class Main{
+class First_Element_in_Loop{
 
     private ListNode head;
 
@@ -39,7 +39,7 @@ class Main{
 
 
     public static void main(String[] args) {
-        Main sll=new Main(); // to have head inside main
+        First_Element_in_Loop sll=new First_Element_in_Loop(); // to have head inside main
         sll.head=new ListNode(10);
 
         ListNode n2=new ListNode(11);

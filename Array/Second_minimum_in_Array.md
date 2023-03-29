@@ -5,7 +5,7 @@ V1
 
 
 
-class Prog{
+class Second_minimum_in_Array{
 
     static int operation(int arr[]){
         int min=arr[0],minx=Integer.MAX_VALUE,i;

@@ -1,6 +1,6 @@
 // shift by 90=transpose matrix then reverse its row 
 import java.util.Scanner;
-class Main{
+class Shift_array_by_90{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 

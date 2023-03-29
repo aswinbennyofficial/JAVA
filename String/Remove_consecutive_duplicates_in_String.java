@@ -1,4 +1,4 @@
-public class Prog {
+public class Remove_consecutive_duplicates_in_String {
     public static void main(String[] args) {
         String str="aaabbcddfeeg";
         char[] arr=str.toCharArray();

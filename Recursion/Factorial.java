@@ -1,4 +1,4 @@
-class Main{
+class Factorial{
     public static int num(int n){
         if (n==0){
             //System.out.println("Not found");

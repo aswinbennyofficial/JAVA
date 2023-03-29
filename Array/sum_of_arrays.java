@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class sum_of_arrays{
     public static void main(String args[]){
         int i,s=0;
         Scanner sc=new Scanner(System.in);

@@ -3,7 +3,7 @@
 
 ```java
 
-class Prog{
+class Move_zero_to_end_of_Array{
 
     static void operation(int arr[]){
         int i,ind;
@@ -41,7 +41,7 @@ class Prog{
 
 ```java
 
-class Prog{
+class Move_zero_to_end_of_Array{
 
     static void operation(int arr[]){
         int i,count=0;

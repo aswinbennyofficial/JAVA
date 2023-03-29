@@ -1,4 +1,4 @@
-class Main{
+class String_without_vowels{
     public static void main(String[] args) {
         String str="Welcome to JAVA",newstr="";
         char vow[]={'A','E','I','O','U','a','e','i','o','u'};

@@ -1,5 +1,5 @@
 
-class Main{
+class Print_Reverse_Elements_in_LL{
 
     private ListNode head;
 
@@ -28,7 +28,7 @@ class Main{
 
 
     public static void main(String[] args) {
-        Main sll=new Main(); // to have head inside main
+        Print_Reverse_Elements_in_LL sll=new Print_Reverse_Elements_in_LL(); // to have head inside main
         sll.head=new ListNode(10);
 
         ListNode n2=new ListNode(11);

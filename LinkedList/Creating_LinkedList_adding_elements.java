@@ -1,4 +1,4 @@
-class Main{
+class Creating_LinkedList_adding_elements{
 
     private ListNode head;
 
@@ -15,7 +15,7 @@ class Main{
     }
 
     public static void main(String[] args) {
-        Main sll=new Main(); // to have 'head' inside main
+        Creating_LinkedList_adding_elements sll=new Creating_LinkedList_adding_elements(); // to have 'head' inside main
         
         //creating head node
         sll.head=new ListNode(10);

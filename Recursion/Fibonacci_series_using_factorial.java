@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class Fibonacci_series_using_factorial{
 
     public static int recursiveFxn(int n){
         if (n==1){

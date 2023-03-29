@@ -1,5 +1,5 @@
 import java.util.*;
-class Main{
+class Sum_of_first_n_numbers{
 
     public static int recursiveFxn(int n){
        if (n==1){

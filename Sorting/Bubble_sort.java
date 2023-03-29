@@ -1,4 +1,4 @@
-class Main{
+class Bubble_sort{
     public static void main(String[] args) {
         int arr[]={1,5,1,-1,7,4,8,-5};
         int i,j;

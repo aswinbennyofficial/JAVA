@@ -4,7 +4,7 @@
 ```java
 import java.util.*;
 //import java.math.*;
-class Main{
+class Reverse_an_Array{
     public static void main(String args[]){
         int arr[]={1,2,3,-4,5,6,-7};
         int rev_arr[]=new int[arr.length];
@@ -28,7 +28,7 @@ class Main{
 ```java
 import java.util.*;
 
-class Main{
+class Reverse_an_Array{
     public static void main(String args[]){
         int arr[]={1,2,-0,-8,-3,-4,-7,9};
         //int rev_arr[]=new int[arr.length];

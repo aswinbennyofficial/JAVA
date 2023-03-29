@@ -1,6 +1,6 @@
 #### v1
 ```java
-class Main{
+class Reverse_of_vowels{
 
    public static boolean isVowel(char arr[],int n){
         char vow[] = {'A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u'};
@@ -55,7 +55,7 @@ class Main{
 ```java
 
 
-class Main{
+class Reverse_of_vowels{
     static boolean isVowel(char a){
         char vowel[]={'a','e','i','o','u','A','E','I','O','U'};
         int j=0,flag=0;

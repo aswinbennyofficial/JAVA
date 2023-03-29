@@ -1,6 +1,6 @@
 
 
-class Prog{
+class Minimum_in_an_array{
 
     static int operation(int arr[]){
         int min=arr[0],i;

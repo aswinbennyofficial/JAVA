@@ -1,4 +1,4 @@
-class Main{
+class Printing_n_numbers_in_increasing_order{
     public static void num(int n){
 
         if (n==0){

@@ -7,7 +7,7 @@ You can return the answer in any order.
 
 */
 
-class Solution {
+class Leetcode_two_sum {
     public int[] twoSum(int[] nums, int target) {
 
        int i,j;
