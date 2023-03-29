@@ -12,17 +12,7 @@ To use these codes, simply clone the repository to your local machine:
 git clone https://github.com/aswinbennyofficial/JAVA.git
 ```
 
-### List of Topics Covered
 
-    Arrays
-    Linked Lists
-    Stacks and Queues
-    Binary Trees
-    Binary Search Trees
-    Heaps
-    Graphs
-    Sorting Algorithms
-    Searching Algorithms
 
 ### Contributing
 
