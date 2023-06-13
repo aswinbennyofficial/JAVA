@@ -1,4 +1,4 @@
-public class Triangle_pattern {
+public class Pattern_inverted_triangle {
     static void triangle(int r, int c){
         if(r==0){
             return;
